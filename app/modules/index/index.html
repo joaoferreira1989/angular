@@ -3,4 +3,8 @@
         <li class="list-group-item">{{landingData.name}}</li>
         <li class="list-group-item">{{landingData.date | date:'yyyy-MM-dd'}}</li>
     </ul>
+
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="user in users">{{ user.name }} - {{ user.type | userType }}</li>
+    </ul>
 </div>

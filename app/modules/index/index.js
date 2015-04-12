@@ -14,4 +14,22 @@ angular.module('myApp.index', ['ngRoute'])
         name: 'Angular Application Prototype',
         date: new Date()
     };
+
+    $scope.users = [
+        {
+            id: 1,
+            type: 1,
+            name: "name1"
+        },
+        {
+            id: 2,
+            type: 2,
+            name: "name2"
+        },
+        {
+            id: 3,
+            type: 2,
+            name: "name3"
+        }
+    ];
 });
